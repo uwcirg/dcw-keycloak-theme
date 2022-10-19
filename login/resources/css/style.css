@@ -1,9 +1,9 @@
 :root {
-    --body-bg-color: #016871;
-    --primary-color: #058590;
-    --primary-hover-color: #036770;
+    --body-bg-color: #5d4f71;
+    --primary-color: #361a63;
+    --primary-hover-color: #301757;
     --section-border-color: #dcdfdc;
-    --title-color: #003f44;
+    --title-color: #444;
 }
 html.login-pf {
     background: var(--body-bg-color);
@@ -138,7 +138,7 @@ input[type="text"], input[type="password"] {
 }
 input[type="submit"] {
     background-image: none;
-    background-color: #058590;
+    background-color: var(--primary-color);
     padding: 16px;
     width: 100%;
     font-size: 16px;
@@ -149,7 +149,7 @@ input[type="submit"] {
     display: block;
 }
 input[type="submit"]:hover {
-    background-color: #055f67;
+    background-color: var(--primary-hover-color);
 }
 a {
     color: #1994d0;
@@ -173,12 +173,12 @@ label {
 }
 .btn-primary {
     background-image: none;
-    background-color: #00838f;
+    background-color: var(--primary-color);
     border: 0;
     border-radius: 24px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #016871;
+    background-color: var(--primary-hover-color);
 }
 .kc-social-links {
     padding: 0;
